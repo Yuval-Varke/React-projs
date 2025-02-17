@@ -5,16 +5,16 @@ import assets from '../assets/assets'
 const MyProfile = () => {
 
 const [userData, setUserData]= useState({
-  name:"Edward Vincent",
+  name:"Yuval Varke",
   image:assets.profile_pic,
-  email:"richardjamseswap@gmail.com",
-  phone:'+8431455095',
+  email:"varke.vishu01@gmail.com",
+  phone:'+91 9876543210',
   address:{
-    line1:"57th Cross, Richmond",
-    line2:"Circle, Chruch Road, London"
+    line1:"H-44/A, Sector-63",
+    line2:"JK Road, Bhopal"
   },
   gender:'Male',
-  dob:'2000-01-20'
+  dob:'2004-07-01'
 })
 
 
